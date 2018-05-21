@@ -11,7 +11,7 @@ import signal
 import random
 
 INTERVAL = 600
-torrent_file = '/dev/tmp/Suicide.Squad.2016.WEB-DL.1080p.ExKinoRay.mkv'
+torrent_file = '/dev/tmp/movie.mkv'
 transmission ='/usr/bin/transmission-cli -w /dev/tmp http://ru-free-tor.org/download/534342'
 channel = random.randint(1,16)
 channel = str(channel)

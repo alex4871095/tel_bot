@@ -12,13 +12,11 @@ import random
 
 #requests.packages.urllib3.disable_warnings()
 INTERVAL = 5  
-ADMIN_ID = 182957064
-#ADMIN_ID = 128129623
-#ADMIN2_ID = 165134636
+ADMIN_ID = 111111111
 URL = 'https://api.telegram.org/bot' 
-TOKEN = '288823348:AAHBS8jRzkIMuRDSaPjgfSIcEYDKKHENHu8'
+TOKEN = 'XXX:YYY'
 offset = 0
-torrent_file = '/dev/tmp/Suicide.Squad.2016.WEB-DL.1080p.ExKinoRay.mkv'
+torrent_file = '/dev/tmp/movie.mkv'
 speedtest = 'speedtest'
 transmission ='/usr/bin/transmission-cli -w /dev/tmp http://ru-free-tor.org/download/534342'
 channel = random.randint(1,16)
